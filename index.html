@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tree++ | Главная</title>
+    <link rel="shortcut icon" href="img/logo.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="header-nav">
+        <div class="container"> 
+            <div class="logo"><img src="img/logo.png" alt="logo"></div>
+            <nav>
+            <ul>
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#products">Продукты</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+            </nav>
+      </div>
+    </div>
+
+    <header class="home" id="home">
+        <div class="container">
+            <h1 class="home-head">Добро пожаловать в Tree++</h1>
+            <p class="home-desc">Магазин саженцев деревьев высочайшего качества</p>
+            <a href="#products" class="home-btn btn">Узнать больше</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h2 class="main-head__text">Наши продукты:</h2>
+            <div class="main-products" id="products">
+                <div class="main-product">
+                    <div class="img__box"><img src="img/tree/klen.png" alt="КЛЕН"></div>
+                    <h3 class="main-product-name">КЛЕН</h3>
+                    <p class="main-product-desc">Клен ценится по всему миру как его дерево, так его древесина. Для него характерны яркие осенние краски, поэтому очень часто это дерево высаживается в качестве декоративного во дворах и парках. Клен, растущий в природе в районах с каменистыми и известковыми породами, лучше всего прорастает в регионах с умеренным климатом. Всего насчитывается более 150 видов, большинство из которых родны для азиатского континента. Ареал распространения клена достаточно широк, он прорастает в Азии, Европе, Северной Африке и Северной Америке.</p>
+                    <a href="#" class="btn" id="open__modal">Купить Сейчас</a>
+                </div>
+                <div class="main-product">
+                    <div class="img__box"><img src="img/tree/visnya.png" alt="ВИШНЯ"></div>
+                    <h3 class="main-product-name">ВИШНЯ</h3>
+                    <p class="main-product-desc">Плодоносные деревья всегда привлекали внимание человечества. С начала времен охоты и сбора люди обращали внимание на эти деревья. Одно из самых популярных фруктовых деревьев - это вишня. Вишня вызывает интерес благодаря своим вкусным плодам и разнообразным видам. Существует шесть основных видов вишни: черная вишня, черешня, бразильская вишня, патагонская вишня, карибская вишня и чилийская вишня.  Это деревья можно встретить в различных частях мира, таких как Европа, Азия, Америка, Анатолия и Кавказ.</p>
+                    <a href="#" class="btn" id="open__modal">Купить Сейчас</a>
+                </div>
+                <div class="main-product">
+                    <div class="img__box"><img src="img/tree/sosna.png" alt="СОСНА"></div>
+                    <h3 class="main-product-name">СОСНА</h3>
+                    <p class="main-product-desc">Сосна, принадлежащая к семейству сосновых, является одной из самых популярных древесных пород, которая распространилась по всему миру и произрастает почти во всех странах. В мире насчитывается более 100 видов сосен. В большинстве своем выращивается в Европе, на Кавказе, в России, Турции и Иране. Сосна, лучше приспосабливающаяся в умеренных и холодных климатических условиях, может расти во всех регионах с этими климатическими условиями. Однако в большинстве своем сосна растет в горной местности.</p>
+                    <a href="#" class="btn" id="open__modal">Купить Сейчас</a>
+                </div>
+            </div>
+
+            <div class="add-btn">
+                <a id="open__modal" href="#" class="btn product-add">Показать ещё</a>
+              </div>
+        </div>
+    </main>
+
+    <div class="modal" id="my-modal">
+        <div class="modal-body">
+            <button class="modal-btn__close" id="close__modal">
+                <svg width="64" height="64" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M4.11 2.697L2.698 4.11 6.586 8l-3.89 3.89 1.415 1.413L8 9.414l3.89 3.89 1.413-1.415L9.414 8l3.89-3.89-1.415-1.413L8 6.586l-3.89-3.89z" fill="#000"></path>
+              </svg>
+              </button>
+          </svg>
+          </button>
+          <div class="modal-content">
+           <section class="all-products">
+            <h2>Все продукты:</h2>
+            <div class="products">
+                <article class="product-element">
+                    <div class="product-img">
+                        <img src="img/tree/klen.png" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h3>КЛЕН</h3>
+                        <p>Сажанецов в одном пучке 100 штук.</p>
+                    </div>
+                    <div class="product-price">
+                        <span class="product-price-new">34 990 ₽</span>
+                        <span class="product-price-old">57 990₽</span>
+                      </div>
+                      <a href="#" class="btn" data-btn>Добавить в корзину</a>
+                </article>
+
+                <article class="product-element">
+                    <div class="product-img">
+                        <img src="img/tree/visnya.png" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h3>ВИШНЯ</h3>
+                        <p>Сажанецов в одном пучке 100 штук.</p>
+                    </div>
+                    <div class="product-price">
+                        <span class="product-price-new">46 990 ₽</span>
+                        <span class="product-price-old">72 190₽</span>
+                      </div>
+                      <a href="#" class="btn" data-btn>Добавить в корзину</a>
+                </article>
+                
+                <article class="product-element">
+                    <div class="product-img">
+                        <img src="img/tree/sosna.png" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h3>СОСНА</h3>
+                        <p>Сажанецов в одном пучке 100 штук.</p>
+                    </div>
+                    <div class="product-price">
+                        <span class="product-price-new">53 740 ₽</span>
+                        <span class="product-price-old">86 990₽</span>
+                      </div>
+                      <a href="#" class="btn" data-btn>Добавить в корзину</a>
+                </article>
+
+                <article class="product-element">
+                    <div class="product-img">
+                        <img src="img/tree/greckiaorex.png" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h3>ГРЕЦКИЙ ОРЕХ</h3>
+                        <p>Сажанецов в одном пучке 100 штук.</p>
+                    </div>
+                    <div class="product-price">
+                        <span class="product-price-new">68 990 ₽</span>
+                        <span class="product-price-old">96 990₽</span>
+                      </div>
+                      <a href="#" class="btn" data-btn>Добавить в корзину</a>
+                </article>
+
+                <article class="product-element">
+                    <div class="product-img">
+                        <img src="img/tree/yasen.png" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h3>Ясень</h3>
+                        <p>Сажанецов в одном пучке 100 штук.</p>
+                    </div>
+                    <div class="product-price">
+                        <span class="product-price-new">57 990 ₽</span>
+                        <span class="product-price-old">63 990₽</span>
+                      </div>
+                      <a href="#" class="btn" data-btn>Добавить в корзину</a>
+                </article>
+
+                <article class="product-element">
+                    <div class="product-img">
+                        <img src="img/tree/pixta.png" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h3>ПИХТА</h3>
+                        <p>Сажанецов в одном пучке 100 штук.</p>
+                    </div>
+                    <div class="product-price">
+                        <span class="product-price-new">81 990 ₽</span>
+                        <span class="product-price-old">106 990₽</span>
+                      </div>
+                      <a href="#" class="btn" data-btn>Добавить в корзину</a>
+                </article>
+
+                <article class="product-element">
+                    <div class="product-img">
+                        <img src="img/tree/lipa.png" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h3>ЛИПА</h3>
+                        <p>Сажанецов в одном пучке 100 штук.</p>
+                    </div>
+                    <div class="product-price">
+                        <span class="product-price-new">36 990 ₽</span>
+                        <span class="product-price-old">48 990₽</span>
+                      </div>
+                      <a href="#" class="btn" data-btn>Добавить в корзину</a>
+                </article>
+                
+                <article class="product-element">
+                    <div class="product-img">
+                        <img src="img/tree/topol.png" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h3>ТОПОЛЬ</h3>
+                        <p>Сажанецов в одном пучке 100 штук.</p>
+                    </div>
+                    <div class="product-price">
+                        <span class="product-price-new">27 990 ₽</span>
+                        <span class="product-price-old">42 990₽</span>
+                      </div>
+                      <a href="#" class="btn" data-btn>Добавить в корзину</a>
+                </article>
+
+                <article class="product-element">
+                    <div class="product-img">
+                        <img src="img/tree/byk.png" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h3>БУК</h3>
+                        <p>Сажанецов в одном пучке 100 штук.</p>
+                    </div>
+                    <div class="product-price">
+                        <span class="product-price-new">134 990 ₽</span>
+                        <span class="product-price-old">151 990₽</span>
+                      </div>
+                      <a href="#" class="btn" data-btn>Добавить в корзину</a>
+                </article>
+
+                <article class="product-element">
+                    <div class="product-img">
+                        <img src="img/tree/kahtan.png" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h3>КАШТАН</h3>
+                        <p>Сажанецов в одном пучке 100 штук.</p>
+                    </div>
+                    <div class="product-price">
+                        <span class="product-price-new">48 990 ₽</span>
+                        <span class="product-price-old">62 990₽</span>
+                      </div>
+                      <a href="#" class="btn" data-btn>Добавить в корзину</a>
+                </article>
+
+                <article class="product-element">
+                    <div class="product-img">
+                        <img src="img/tree/olixa.png" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h3>ОЛЬХА</h3>
+                        <p>Сажанецов в одном пучке 100 штук.</p>
+                    </div>
+                    <div class="product-price">
+                        <span class="product-price-new">86 990 ₽</span>
+                        <span class="product-price-old">102 990₽</span>
+                      </div>
+                      <a href="#" class="btn" data-btn>Добавить в корзину</a>
+                </article>
+
+                <article class="product-element">
+                    <div class="product-img">
+                        <img src="img/tree/dyb.png" alt="">
+                    </div>
+                    <div class="product-info">
+                        <h3>ДУБ</h3>
+                        <p>Сажанецов в одном пучке 100 штук.</p>
+                    </div>
+                    <div class="product-price">
+                        <span class="product-price-new">36 990 ₽</span>
+                        <span class="product-price-old">43 990₽</span>
+                      </div>
+                      <a href="#" class="btn" data-btn>Добавить в корзину</a>
+                </article> 
+            </div>
+           </section>
+
+
+           <section class="basket">
+                <h2 class="basket-head">Ваша заказ</h2>
+                    <div class="basket__box">
+                        <article class="basket-product basket-product__none"><p class="basket-none">Корзина пуста</p></article>
+                    </div>
+
+
+                <div class="basket-box-two">
+                    <hr>
+                    <p class="result-price">Итог: <span>0 ₽</span></p>
+                    <hr>
+                    <div class="buy-basket">
+                        <h3 class="buy-basket-head">Оформить заказ</h3>
+                        <form id="buy">
+                        <input type="text" id="number" placeholder="Ваш номер телефона" required>
+                        <button type="submit">Заказать</button>
+                        </form>
+                    </div>
+                </div>
+           </section>
+          </div>
+        </div>
+      </div>
+
+
+
+
+    <section id="contact">
+        <div class="container">
+          <h2 class="contact-head">Контакты</h2>
+          <p class="contact-desc">Свяжитесь с нами для получения дополнительной информации:</p>
+      
+          <form id="contactForm">
+            <input type="text" id="name" placeholder="Ваше имя" required>
+            <input type="email" id="email" placeholder="Ваш Email" required>
+            <textarea id="message" placeholder="Ваше сообщение" required></textarea>
+            <button type="submit">Отправить</button>
+          </form>
+      
+        </div>
+      </section>
+
+      <footer>
+        <div class="container">
+          <p>&copy; 2023 Tree++ все права защещины.</p>
+        </div>
+      </footer>
+
+      <script defer src="js/script.js"></script>
+      <script defer src="js/basket.js"></script>
+</body>
+</html>
